@@ -1,3 +1,28 @@
+"""
+Portfolio Module
+================
+
+Author: Cole J. Krudwig
+
+Description:
+------------
+This module defines a Portfolio class that manages the capital allocation and tracks 
+the capital history over time during the execution of a trading strategy. It allows 
+resetting of the portfolio and updating the capital based on trading actions.
+
+Usage:
+------
+Instantiate the Portfolio class with an initial capital amount. Use the update method 
+to modify the portfolio's capital based on trading activity. Use the get_history method 
+to retrieve the portfolio's capital history as a pandas DataFrame.
+
+Example:
+--------
+portfolio = Portfolio(initial_capital=10000)
+portfolio.update(date, price_diff, position)
+history = portfolio.get_history()
+"""
+
 import pandas as pd
 import numpy as np
 

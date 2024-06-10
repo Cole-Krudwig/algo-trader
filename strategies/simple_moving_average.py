@@ -1,3 +1,14 @@
+"""
+Simple Moving Average Trading Strategy
+=====================================
+
+Author: Cole J. Krudwig
+
+Description:
+------------
+This file is a simple moving average trading strategy that is meant to illustrate how to use the backtesting, portfolio, and fetcher modules.
+"""
+
 import pandas as pd
 import numpy as np
 import sys
@@ -24,8 +35,8 @@ def simple_moving_average_strategy(data):
     else:
         return 'sell'
 
-# Example usage
-fetcher = Fetcher('AAPL', '1h', 30)
+# example ussage with Apple stock
+fetcher = Fetcher('AAPL', '1h', 300)
 data = fetcher.fetch()
 
 backtester = Backtester(data)
