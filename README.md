@@ -4,13 +4,18 @@
 Cole J. Krudwig
 
 ## Table of Contents
-
-- [Overview](#overview)
-- [Modules](#modules)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Example Strategy](#example strategy)
-- [Contributing](#contributing)
+1. [Overview](#overview)
+2. [Modules](#modules)
+    - [Fetcher](#fetcher)
+    - [Portfolio](#portfolio)
+    - [Backtester](#backtester)
+3. [Installation](#installation)
+4. [Usage](#usage)
+    - [Fetching Data](#fetching-data)
+    - [Managing Portfolio](#managing-portfolio)
+    - [Running Backtests](#running-backtests)
+5. [Example Strategy](#example-strategy)
+6. [Contributing](#contributing)
 
 ## Overview
 The Algo Trading Backtester is a Python-based project that allows users to define and backtest trading strategies. The project includes modules for fetching historical market data, managing a trading portfolio, and running backtests on specified strategies.
